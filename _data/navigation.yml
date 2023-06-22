@@ -13,19 +13,19 @@ header:
       # @end locale config
     url: /docs/en/introduction
 
-  - titles:
-      # @start locale config
-      en      : &EN       Why we need this dataset?
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  背景
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      # @end locale config
-    url: /docs/en/background
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       Why do we need this dataset?
+  #     en-GB   : *EN
+  #     en-US   : *EN
+  #     en-CA   : *EN
+  #     en-AU   : *EN
+  #     zh-Hans : &ZH_HANS  背景
+  #     zh      : *ZH_HANS
+  #     zh-CN   : *ZH_HANS
+  #     zh-SG   : *ZH_HANS
+  #     # @end locale config
+  #   url: /docs/en/background
 
   - titles:
       # @start locale config
