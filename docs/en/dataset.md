@@ -16,46 +16,112 @@ The dataset was collected in compliance with the guidelines of the Tenets of Hel
 ## Dataset Composition
 
 
-- 415 participants (264 males and 151 females, age range: 50-75 years).
-- 635 RGB videos with a frame rate of 25 frames per second.
-- Duration varies between 2 to 30 seconds.
-- Videos were collected over five years using different smartphones.
-- Spatial and temporal annotations provided by trained clinicians.
+&nbsp; - 415 participants (264 males and 151 females, age range: 50-75 years).
+
+&nbsp; - 635 RGB videos with a frame rate of 25 frames per second.
+
+&nbsp; - Duration varies between 2 to 30 seconds.
+
+&nbsp; - Videos were collected over five years using different smartphones.
+
+&nbsp; - Spatial and temporal annotations provided by trained clinicians.
 
 
-## Spatial Annotations
+## Annotation
+### Spatial Annotations
 
 
 This type of annotation helps to distinguish between retinal arteries and veins, which is essential as many diseases have differential impacts on arteries and veins.
 
-<div>{%- include extensions/youtube.html id='fMUa1jN0GUY' -%}</div>
 
-1. **Binary Vessel Masks:** Annotations include binary masks that highlight the main structures of vessels.
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between; Creates space around items
+        }
 
-2. **General Vein-Artery Masks:** This type of annotation helps to distinguish between retinal arteries and veins, which is essential as many diseases have differential impacts on arteries and veins.
+        .image-with-caption {
+            width: 70%;
+            margin: auto;
+        }
 
-3. **Fine-Grained Vein-Artery Masks:** Eight-class masks for both arteries and veins based on vessel widths. The vessel diameters were automatically measured and segments were categorized into different levels (0 to 3) based on ratios to the largest diameter. Clinicians validated the quality of these fine-grained segmentation masks.
+        .image-with-caption img {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-with-caption figcaption {
+            text-align: center;
+        }
+    </style>
+</head>
+<figure class="image-with-caption">
+    <img src="/docs/assets/images/spatial_annotation.gif">
+    <!-- <figcaption>Spatial Annotation</figcaption> -->
+</figure>
+
+
+<!-- <div>{%- include extensions/youtube.html id='fMUa1jN0GUY' -%}</div> -->
+
+**Binary Vessel Masks:** Annotations include binary masks that highlight the main structures of vessels.
+
+**General Vein-Artery Masks:** This type of annotation helps to distinguish between retinal arteries and veins, which is essential as many diseases have differential impacts on arteries and veins.
+
+**Fine-Grained Vein-Artery Masks:** Eight-class masks for both arteries and veins based on vessel widths. The vessel diameters were automatically measured and segments were categorized into different levels (0 to 3) based on ratios to the largest diameter. Clinicians validated the quality of these fine-grained segmentation masks.
 
 
 
 ## Temporal Annotations
 
 
-<div>{%- include extensions/youtube.html id='zrrk7tHIhAU' -%}</div>
+<head>
+    <style>
+        .container {
+        display: flex;
+            /* justify-content: space-between; */
+            justify-content: center;
+        }
+
+        .video-container {
+            width: 32%;
+            flex-shrink: 0; /* Prevents the images from shrinking */
+            text-align: center;
+            margin: 0 10px; /* Adds 10px of space on the left and right of each image */
+        }
+
+        .video-container video {
+            width: 100%;
+            height: auto;
+        }
+
+        .caption {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<div class="container">
+  <div class="video-container">
+    <div>{%- include extensions/youtube.html id='zrrk7tHIhAU' -%}</div>
+    <p class="caption">SVP Classification</p>
+  </div>
+  <div class="video-container">
+    <div>{%- include extensions/youtube.html id='-DGihnkzzXg' -%}</div>
+    <p class="caption">Temporal Localization</p>
+  </div>
+  <div class="video-container">
+    <div>{%- include extensions/youtube.html id='yYtIow7Pq-M' -%}</div>
+    <p class="caption">Peak and Trough</p>
+  </div>
+</div>
 
 
 
-<div>{%- include extensions/youtube.html id='-DGihnkzzXg' -%}</div>
+**Existence of Spontaneous Venous Pulsations (SVPs):** Clinicians annotated the presence or absence of SVPs in each video, resulting in 335 “SVP-present” videos and 300 “SVP-absent” videos. SVPs serve as a crucial biomarker in retina assessments.
 
+**Temporal Duration of SVPs:** To eliminate ambiguity, the starting and ending frames of retinal vessel fluctuations (SVPs) were indicated for videos where SVPs were not visible throughout the whole video.
 
-
-<div>{%- include extensions/youtube.html id='yYtIow7Pq-M' -%}</div>
-
-
-
-1. **Existence of Spontaneous Venous Pulsations (SVPs):** Clinicians annotated the presence or absence of SVPs in each video, resulting in 335 “SVP-present” videos and 300 “SVP-absent” videos. SVPs serve as a crucial biomarker in retina assessments.
-2. **Temporal Duration of SVPs:** To eliminate ambiguity, the starting and ending frames of retinal vessel fluctuations (SVPs) were indicated for videos where SVPs were not visible throughout the whole video.
-3. **“Peak” and “Trough” Annotations of SVPs:** Selected frames corresponding to the “peak” (maximal dilation) and “trough” (maximal contraction) states from each “SVP-present” video were annotated.
+**“Peak” and “Trough” Annotations of SVPs:** Selected frames corresponding to the “peak” (maximal dilation) and “trough” (maximal contraction) states from each “SVP-present” video were annotated.
 
 
 
