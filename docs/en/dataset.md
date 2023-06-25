@@ -28,7 +28,7 @@ The dataset was collected in compliance with the guidelines of the Tenets of Hel
 
 This type of annotation helps to distinguish between retinal arteries and veins, which is essential as many diseases have differential impacts on arteries and veins.
 
-<div>{%- include extensions/youtube.html id='ztLhhOzDr68' -%}</div>
+<div>{%- include extensions/youtube.html id='fMUa1jN0GUY' -%}</div>
 
 1. **Binary Vessel Masks:** Annotations include binary masks that highlight the main structures of vessels.
 
@@ -41,15 +41,15 @@ This type of annotation helps to distinguish between retinal arteries and veins,
 ## Temporal Annotations
 
 
-<div>{%- include extensions/youtube.html id='P0ZvV0iA1UQ' -%}</div>
+<div>{%- include extensions/youtube.html id='zrrk7tHIhAU' -%}</div>
 
 
 
-<div>{%- include extensions/youtube.html id='J4ADMJPEdsI' -%}</div>
+<div>{%- include extensions/youtube.html id='-DGihnkzzXg' -%}</div>
 
 
 
-<div>{%- include extensions/youtube.html id='KR3L_4UmPFc' -%}</div>
+<div>{%- include extensions/youtube.html id='yYtIow7Pq-M' -%}</div>
 
 
 
