@@ -28,6 +28,7 @@ The dataset was collected in compliance with the guidelines of the Tenets of Hel
 
 This type of annotation helps to distinguish between retinal arteries and veins, which is essential as many diseases have differential impacts on arteries and veins.
 
+<div>{%- include extensions/youtube.html id='ztLhhOzDr68' -%}</div>
 
 1. **Binary Vessel Masks:** Annotations include binary masks that highlight the main structures of vessels.
 
@@ -40,9 +41,25 @@ This type of annotation helps to distinguish between retinal arteries and veins,
 ## Temporal Annotations
 
 
+<div>{%- include extensions/youtube.html id='P0ZvV0iA1UQ' -%}</div>
+
+
+
+<div>{%- include extensions/youtube.html id='J4ADMJPEdsI' -%}</div>
+
+
+
+<div>{%- include extensions/youtube.html id='KR3L_4UmPFc' -%}</div>
+
+
+
 1. **Existence of Spontaneous Venous Pulsations (SVPs):** Clinicians annotated the presence or absence of SVPs in each video, resulting in 335 “SVP-present” videos and 300 “SVP-absent” videos. SVPs serve as a crucial biomarker in retina assessments.
 2. **Temporal Duration of SVPs:** To eliminate ambiguity, the starting and ending frames of retinal vessel fluctuations (SVPs) were indicated for videos where SVPs were not visible throughout the whole video.
 3. **“Peak” and “Trough” Annotations of SVPs:** Selected frames corresponding to the “peak” (maximal dilation) and “trough” (maximal contraction) states from each “SVP-present” video were annotated.
+
+
+
+
 
 
 ## Data Split:
