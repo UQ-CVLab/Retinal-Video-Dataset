@@ -56,7 +56,7 @@ The sequential frames in our RVD dataset capture the continuous changes in retin
 
 
 
-## ⭐ Hand-held
+## ⭐ Handheld
 
 
 In recent years, advances in imaging technology have enabled the usage of smartphone-based devices for retinal observation. They offer better flexibility and portability, allowing for scalable data collection. 
