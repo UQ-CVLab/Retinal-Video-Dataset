@@ -57,7 +57,7 @@ This type of annotation helps to distinguish between retinal arteries and veins,
     </style>
 </head>
 <figure class="image-with-caption">
-    <img src="/docs/assets/images/spatial_annotation.gif">
+    <img src="../assets/images/spatial_annotation.gif">
     <!-- <figcaption>Spatial Annotation</figcaption> -->
 </figure>
 

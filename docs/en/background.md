@@ -96,11 +96,11 @@ To the best of our knowledge, RVD is the first mobile-device based and video bas
 <body>
     <div class="container">
         <div class="image-container-1">
-            <img src="/docs/assets/images/traditional_device.png" alt="Description of Image 1">
+            <img src="../assets/images/traditional_device.png" alt="Description of Image 1">
             <p class="caption">Bench-top Device</p>
         </div>
         <div class="image-container-1">
-            <img src="/docs/assets/images/handheld_device.png" alt="Description of Image 2">
+            <img src="../docs/assets/images/handheld_device.png" alt="Description of Image 2">
             <p class="caption">Handheld Device</p>
         </div>
     </div>
