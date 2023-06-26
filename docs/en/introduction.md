@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Retinal Video Dataset (RVD)
+title: Retinal Vessel Dataset (RVD)
 permalink: /docs/en/introduction
 key: docs-introduction
 ---

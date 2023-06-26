@@ -11,7 +11,7 @@ key: docs-introduction
 ### We welcome contributions of the following:
 
 
-&nbsp; * Retinal vessel videos with descriptions and ground truth
+&nbsp; * Retinal Vessel videos with descriptions and ground truth
 
 &nbsp; * Published benchmarking results of algorithms applied to the RVD dataset
 
