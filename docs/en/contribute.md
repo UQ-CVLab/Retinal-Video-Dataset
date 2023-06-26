@@ -17,7 +17,8 @@ key: docs-introduction
 
 &nbsp; * Corrections to existing descriptions or ground truth
 
-&nbsp; * Feedback on the [benchmarking methodology]() or other aspects of the RVD
+&nbsp; * Other aspects of the RVD 
+<!-- Feedback on the [benchmarking methodology]() or other aspects of the RVD -->
 
 
 

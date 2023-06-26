@@ -44,11 +44,11 @@ The sequential frames in our RVD dataset capture the continuous changes in retin
     <div class="container">
         <div class="image-container-0">
             <img src="../assets/images/image_based_dataset.png" alt="Description of Image 1">
-            <p class="caption">Image-based Data</p>
+            <p class="caption">Exisiting datasets: Image-based</p>
         </div>
         <div class="image-container-0">
             <img src="../assets/images/video_based_dataset.gif" alt="Description of Image 2">
-            <p class="caption">Video-based Data</p>
+            <p class="caption">Our RVD: Video-based</p>
         </div>
     </div>
 </body>
