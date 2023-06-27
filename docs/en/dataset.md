@@ -6,7 +6,7 @@ key: docs-dataset
 article_header:
   type: overlay
   theme: dark
-  height: 60vh
+  height: 50vh
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
@@ -160,14 +160,17 @@ Spontaneous retinal Venous Pulsations (SVPs) play a crucial role as a biomarker 
 <div class="container">
   <div class="video-container">
     <div>{%- include extensions/youtube.html id='zrrk7tHIhAU' -%}</div>
+    <!-- <img src="../assets/images/svp_presence_low_res.gif" width="100%"> -->
     <p class="caption">SVP Classification</p>
   </div>
   <div class="video-container">
     <div>{%- include extensions/youtube.html id='-DGihnkzzXg' -%}</div>
+    <!-- <img src="../assets/images/temporal_annotation_low_res.gif" width="100%"> -->
     <p class="caption">Temporal Localization</p>
   </div>
   <div class="video-container">
     <div>{%- include extensions/youtube.html id='yYtIow7Pq-M' -%}</div>
+    <!-- <img src="../assets/images/peak_and_trough_low_res.gif" width="100%"> -->
     <p class="caption">Peak and Trough</p>
   </div>
 </div>
