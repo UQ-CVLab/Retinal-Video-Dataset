@@ -19,7 +19,7 @@ aside:
 
 <br/> 
 <div style="text-align:center;">
-    <b><a style="font-size: 25px;" href="LINK_TO_ARXIV_PAPER">[Arxiv]</a></b>
+    <b><a style="font-size: 25px;" href="https://arxiv.org/pdf/2307.06577.pdf">[Arxiv]</a></b>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <b><a style="font-size: 25px;" href="https://drive.google.com/drive/folders/1rPbRKBS-28yu7AlMJksbrOQ6bGhNkqL1?usp=sharing">[Download]</a></b>
 </div>
@@ -36,16 +36,16 @@ aside:
 ```bash
 ├── Videos
 │   └── 1080_crop
-├── Sptatial Annotations
+├── Sptatial Annotations 
 │   └── images
 │   └── masks
-│   └── statistics
+│   └── metadata
 ├── Temporal Annotations
-│   └── images
-│   └── masks
-└── Metadata
+│   └── Temporal_Localization
+│   └── SVP_Classification
+│   └── Peak_and_trough 
 ```
-
+<!-- └── Metadata -->
 ## Citation
 If you find our RVD dataset is useful in your research, please consider cite:
 
@@ -55,7 +55,7 @@ If you find our RVD dataset is useful in your research, please consider cite:
   title={RVD: A Handheld Device-Based Fundus Video Dataset for Retinal Vessel Segmentation},
   author={MD WAHIDUZZAMAN KHAN, Hongwei Sheng, Hu Zhang, Heming Du, Sen Wang, Minas Theodore Coroneo, 
   Farshid Hajati, Sahar Shariflou, Michael Kalloniatis, Jack Phu, Ashish Agar, Zi Huang, Mojtaba Golzan, Xin Yu},
-  journal={arXiv preprint arXiv},
+  journal={arXiv preprint arXiv:2307.06577},
   year={2023}
 }
 ```
