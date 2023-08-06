@@ -189,7 +189,7 @@ Spontaneous retinal Venous Pulsations (SVPs) play a crucial role as a biomarker 
 <button style="font-size:20px">[<i class="fa fa-download"></i>](https://github.com/xiaobaishu0097/mmsegmentation/tree/main)</button> : We provide some codes for data preprocessing, which can be used to generate the split files. 
 
 
- <button style="font-size:20px">[<i class="fa fa-download"></i>](https://drive.google.com/drive/folders/1rPbRKBS-28yu7AlMJksbrOQ6bGhNkqL1?usp=sharing)</button> : We also provide the codes to obtain the benchmark results.
+ <button style="font-size:20px">[<i class="fa fa-download"></i>](https://github.com/xiaobaishu0097/mmsegmentation/tree/main)</button> : We also provide the codes to obtain the benchmark results.
 
 ## Ethics
 
