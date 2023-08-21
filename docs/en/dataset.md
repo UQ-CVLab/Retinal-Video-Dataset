@@ -60,10 +60,6 @@ If you find our RVD dataset is useful in your research, please consider cite:
 }
 ```
 
-## Copyright:
-
-Our dataset follows the copyright [Creative Commons BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-
 <!-- ## Dataset Collection
 
 
@@ -202,6 +198,10 @@ Spontaneous retinal Venous Pulsations (SVPs) play a crucial role as a biomarker 
 
 RVD dataset is collected in accordance with the guidelines of the Tenets of Helsinki. Written consent was obtained from all participants prior to any data collection, and all examination protocols adhered to the tenets of the Declaration of Helsinki.
 
+
+## Copyright:
+
+Our dataset follows the copyright [Creative Commons BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 <!-- ## Data Split
 
