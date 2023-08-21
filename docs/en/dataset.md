@@ -183,6 +183,10 @@ Spontaneous retinal Venous Pulsations (SVPs) play a crucial role as a biomarker 
 
 **“Peak” and “Trough” annotations of SVPs:** For each ''SVP-present'' video, masks for frames with the maximal dilation (''peak'') or maximal contraction (''trough'') are provided.
 
+## Copyright:
+
+Our dataset follows the copyright [Creative Commons BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
 
 
 ## Tools
